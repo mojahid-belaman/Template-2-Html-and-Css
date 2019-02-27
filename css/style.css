@@ -1,0 +1,259 @@
+/* Start body */
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+.clearfix
+{
+    clear: both;
+}
+/* End body */
+/* Start header */
+.header
+{
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+.header .logo
+{
+    float: left;
+}
+.header .logo h3{font-size: 20px;letter-spacing: 2px;font-weight: bold; cursor: pointer;}
+.header .nav
+{
+    float: right;
+}
+.header .nav ul
+{
+    list-style: none;
+    margin: 19px 0;
+}
+.header .nav ul li
+{
+    display: inline-block;
+    margin: 6px 30px 0 0;
+    font-size: 18px;
+}
+.header .nav ul li a
+{
+    text-decoration: none;
+    color: #D7D7D8;
+
+}
+.header .nav ul li a:hover{color: #fff;}
+.header .nav ul li:hover{color: #fff;cursor: pointer;}
+/* End header */
+/* Start about */
+.content
+{    
+    background-image: url('../image/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about
+{
+    overflow: hidden;
+}
+.about .info p
+{
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    color: #f6f6f6;
+    padding-top: 70px;
+}
+.about .info p span{font-weight: bold; color: #fff}
+.about .info{text-align: center;}
+.about .info button
+{
+    background: #f84a8f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 35px;
+    margin-top: 45px;
+    border: 0;
+    border-radius: 5px;
+}
+.about .info button:hover, .blog .part .info button:hover
+{
+    background: #e76498
+}
+/* End about */
+/* Start blog */
+.blog
+{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.blog .part
+{
+    background: #fff;
+    width: 30%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%
+}
+.blog .part .image img {width: 100%}
+.blog .part .info
+{
+    text-align: center;
+    padding-top: 35px;
+}
+.blog .part .info p
+{
+    font-size: 20px;
+    padding: 0 20px 25px 20px;
+    line-height: 30px;
+    color: #9A9A9A;
+}
+.blog .part .info button
+{
+    background: #f84a8f;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+    border: 0;
+    border-radius: 5px;
+}
+/* End blog */
+/* Start main */
+.blog .main
+{
+    float: left;
+    width: 46%;
+    color: #fff;
+    overflow: hidden;
+    margin-right: 4%;
+}
+.blog .main hr
+{
+    border: 0.5px solid #f5f3f3;
+}
+.blog .main .icon
+{
+    float: left;
+    position: relative;
+    top: 46px;
+    
+}
+.blog .main .icon i
+{
+    padding-right: 30px;
+    font-size: 40px;
+}
+.blog .main .heading
+{
+    overflow: hidden;
+}
+.blog .main .heading h2
+{
+    font-size: 30px;
+}
+.blog .main .heading p
+{
+    color: #F0F2F7;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* End main */
+/* Start contact */
+.contact
+{
+    background: #D84780;
+    overflow: hidden;
+}
+.contact .part-contact
+{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.contact .part-contact h2
+{
+    color: #fff;
+    font-size: 47px;
+    margin-bottom: 0;
+}
+.contact .part-contact p
+{
+    color: #F0F2F7;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 55px;
+    word-spacing: 5px;
+}
+input[type="text"], textarea
+{
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px; 
+}
+.contact .part-contact form textarea
+{
+    height: 150px;
+}
+.contact .part-contact form button
+{
+    background: none;
+    padding: 15px 25px;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact .part-contact form button:hover{background: #e76498}
+/* End contact */
+/* Start footer */
+.footer
+{
+    background: #0F1116;
+    color: #656669;
+    overflow: hidden;
+}
+.footer .foot
+{
+    text-align: center;
+    padding: 35px 0;
+}
+.footer .foot span
+{
+    display: block;
+    margin-bottom: 20px;
+}
+.footer .foot span > span
+{
+    color: #fff;
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.footer .foot i
+{
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.footer .foot i:hover
+{
+    color: #ffffff;
+}
+/* End footer */
